@@ -10,8 +10,14 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
+      redirect: '/bigScreen',
       component: HomeView
     },
+    {
+      path: '/bigScreen',
+      name: 'BigScreen',
+      component: () => import('@/views/BigScreenView.vue')
+    }
   ]
 })
 
