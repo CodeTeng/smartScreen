@@ -1,6 +1,9 @@
 # smartScreen
 
-This template should help get you started developing with Vue 3 in Vite.
+基于Vue2&3 开发的智数园区是一个数字化园区管理项目，包括后台管理和可视化大屏两个部分，实现对园区内的楼宇、企业、员工、车辆和一体杆等进行数字化管理，以及通过园区 3D 模型实时展示园区概况。
+
+## 后台地址
+https://github.com/CodeTeng/smartPack
 
 ## Recommended IDE Setup
 
