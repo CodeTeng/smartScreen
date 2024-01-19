@@ -1,7 +1,8 @@
 import axios from 'axios'
 import { getCookie } from './cookie'
 const service = axios.create({
-  baseURL: 'https://api-hmzs.itheima.net/v1',
+  // baseURL: 'https://api-hmzs.itheima.net/v1',
+  baseURL: import.meta.env.VITE_BASE_URL,
   timeout: 5000 // request timeout
 })
 
