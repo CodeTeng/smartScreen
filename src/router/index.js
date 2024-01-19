@@ -5,7 +5,8 @@ const router = createRouter({
   // hash模式
   // history: createWebHashHistory()
   // history模式
-  history: createWebHistory(import.meta.env.BASE_URL),
+  // import.meta.env.BASE_URL 路由前加的地址
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
